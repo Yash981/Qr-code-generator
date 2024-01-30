@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #111729;
+    background-image: url(./Images/bg-illustration.svg) ;
+    background-repeat: no-repeat;
+    background-position: right 15% bottom 45%;
+}
+.qrcodeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    gap: 20px;
+}
+.inputfield{
+    border: 2px solid #3662E3;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.inputfield > input{
+    background-color: #111729;
+    outline: none;
+    border: none;
+    color: white;
+    width: 400px;
+    text-align: left;
+    padding: 20px;
+    height: 40px;
+}
+.inputfield > button{
+    background-color: #3662E3;
+    border: none;
+    padding: 10px;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    border-radius: 10px;
+    margin-left: 1px;
+    cursor: pointer;
+    color: #F2F5F9;
+}
+
+.qrcode{
+    border-radius: 20px;
+}
+.downloadshare{
+    display: flex;
+    gap:30px;
+    margin: 10px;
+}
+#downloadQR{
+    display: none;
+    visibility: hidden;
+    background-color: #3662E3;
+    color: #F2F5F9;
+    padding: 15px;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+    width:120px;
+}
+#copyQR{
+    display: none;
+    visibility: hidden;
+    background-color: #3662E3;
+    color: #F2F5F9;
+    padding: 15px;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+    width: 120px;
+
+}
